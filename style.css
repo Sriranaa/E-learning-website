@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN SECTION */
+.main {
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+        url(1.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 109vh;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+/* SEARCH BAR */
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 10px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    margin-top: 13px;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus,
+.srch:focus {
+    outline: none;
+}
+
+/* CONTENT */
+.content {
+    width: 1200px;
+    height: auto;
+    margin-top: 10%;
+    padding-left: 10%;
+    color: #fff;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 60px;
+}
+
+/* LOGIN FORM */
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 50%,
+            rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: -50px;
+    left: 1070px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ff7200;
+}
+
+h1 span {
+    color: #7622cd;
+}
+
+.courseList {
+    display: flex;
+    width: 100%;
+}
+
+.course1>img {
+    height: 250px;
+    width: 350px;
+    padding-right: 40px;
+}
+
+.course2>img {
+    height: 250px;
+    width: 350px;
+    padding-right: 40px;
+}
+
+.course3>img {
+    height: 250px;
+    width: 350px;
+    padding-right: 40px;
+}
+
+.course4>img {
+    height: 250px;
+    width: 350px;
+    padding-right: 40px;
+}
+
+.subco {
+    padding-right: 40px;
+}
+
+.backtag {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.stars {
+    color: gold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+del {
+    color: grey;
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-right: 6px;
+}
+
+.premium {
+    background-color: #551fcc;
+}
+
+.bestseller {
+    background-color: #c3e9eb;
+    color: #1a5f87;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* About Section */
+.about {
+    display: block;
+    /* force vertical layout */
+    padding: 50px;
+    color: white;
+    max-width: 800px;
+    /* keeps content in one column */
+}
+
+/* Make sure headings & text go one below another */
+.about h1,
+.about h2,
+.about p,
+.about ul {
+    display: block;
+    width: 100%;
+}
+
+/* Optional: spacing */
+.about h2,
+.about h1 {
+    color: #FF7200;
+    margin-top: 20px;
+}
+
+/* ================= COURSES PAGE ================= */
+
+.courses {
+    padding: 50px;
+    color: white;
+}
+
+/* Title */
+.course-title {
+    text-align: center;
+    color: #ff7200;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+/* ================= CARD LAYOUT ================= */
+
+.course-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #ff7200;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+}
+
+.course-card:hover {
+    transform: scale(1.02);
+}
+
+/* ================= IMAGE ================= */
+
+.course-card img {
+    width: 260px;
+    height: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* ================= CONTENT ================= */
+
+.course-info {
+    flex: 1;
+}
+
+/* Headings */
+.course-info h2 {
+    color: #ff7200;
+    margin-bottom: 5px;
+}
+
+.course-info h3 {
+    margin-top: 10px;
+}
+
+/* Paragraph spacing */
+.course-info p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* ================= CURRICULUM FIX ================= */
+
+.course-info ul {
+    display: block;
+    /* ensures vertical list */
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.course-info ul li {
+    display: list-item;
+    margin-bottom: 5px;
+}
+
+/* ================= RIGHT SIDE (ACTIONS) ================= */
+
+.course-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    min-width: 150px;
+}
+
+.course-actions p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* ================= BUTTON ================= */
+
+.enroll-btn {
+    padding: 10px 18px;
+    background: #ff7200;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.enroll-btn:hover {
+    background: white;
+    color: #ff7200;
+}
+
+
+@media (max-width: 768px) {
+    .course-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .course-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .course-actions {
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
+
+.contact {
+    padding: 50px;
+    color: white;
+    max-width: 800px;
+}
+
+/* Headings (same orange style) */
+.contact h1,
+.contact h2 {
+    color: #ff7200;
+    margin-bottom: 10px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #555;
+    /* darker text so it's visible */
+}
+
+/* Paragraph spacing */
+.contact p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* FORM */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #ff7200;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 100px;
+}
+
+.contact-form button:hover {
+    background: white;
+    color: #ff7200;
+}
+
+/* POPUP */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+
+    display: none;
+    /* hidden by default */
+    z-index: 1000;
+}
+
+/* Popup button */
+.popup button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ff7200;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background: white;
+    color: #ff7200;
+}

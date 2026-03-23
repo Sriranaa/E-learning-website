@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="courses.xsd">
+
+  <course>
+    <title>Complete AI Automation and Agentic AI Bootcamp</title>
+    <instructor>KRISHAI Technologies</instructor>
+    <description>Learn AI automation and build intelligent agents.</description>
+    <duration>8 Weeks</duration>
+    <price>479</price>
+    <rating>4.5</rating>
+
+    <curriculum>
+      <topic>Introduction to AI</topic>
+      <topic>AI Automation Tools</topic>
+      <topic>Agentic AI Concepts</topic>
+      <topic>Projects</topic>
+    </curriculum>
+  </course>
+
+  <course>
+    <title>AI Engineer Course 2026</title>
+    <instructor>365 Careers</instructor>
+    <description>Learn ML, DL and AI deployment.</description>
+    <duration>10 Weeks</duration>
+    <price>479</price>
+    <rating>4.6</rating>
+
+    <curriculum>
+      <topic>Machine Learning</topic>
+      <topic>Deep Learning</topic>
+      <topic>Neural Networks</topic>
+      <topic>Deployment</topic>
+    </curriculum>
+  </course>
+
+  <course>
+    <title>Intro to AI Agents</title>
+    <instructor>365 Careers</instructor>
+    <description>Beginner-friendly AI agents course.</description>
+    <duration>6 Weeks</duration>
+    <price>479</price>
+    <rating>4.5</rating>
+
+    <curriculum>
+      <topic>AI Basics</topic>
+      <topic>Agent Design</topic>
+      <topic>Projects</topic>
+      <topic>Use Cases</topic>
+    </curriculum>
+  </course>
+
+  <course>
+    <title>AI for Cyber Security</title>
+    <instructor>Selfcode Academy</instructor>
+    <description>Learn AI-based threat detection.</description>
+    <duration>8 Weeks</duration>
+    <price>479</price>
+    <rating>4.7</rating>
+
+    <curriculum>
+      <topic>Cyber Security Basics</topic>
+      <topic>Threat Detection</topic>
+      <topic>SOC Automation</topic>
+      <topic>Case Studies</topic>
+    </curriculum>
+  </course>
+
+</courses>

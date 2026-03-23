@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Upskilling</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="webpage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" placeholder="Type here to text" />
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>CBIT</h1>
+            <h1><span>E-Learning Platform</span></h1>
+            <p class="par">Discover the most exciting online courses</p>
+            <button class="cn"><a href="courses.html">JOIN US</a></button>
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" id="email" name="email" placeholder="Enter Email Here" />
+                <input type="password" id="password" placeholder="Enter Password Here" />
+                <button class="btnn" onclick="loginSuccess()">Login</button>
+                <p class="link">
+                    OR
+                </p>
+                <p class="liw">Log in with</p>
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <h1>
+        Top Courses In <span><u>Artificial Intelligence(AI)</u></span>
+    </h1>
+    <div class="courseList">
+        <div class="course1">
+            <img src="course1.png" alt="course-1" />
+            <h2 class="subco">Complete AI Automation And Agentic AI Bootcamp.</br><span class="backtag">KRISHAI
+                    Technologies Private Limited.</span></h2>
+            <div class="rating">4.5
+                <span class="stars">★★★★★</span>
+                <span class="count">(457)</span>
+            </div>
+            <h2 class="price">₹479 <del>₹799</del></h2>
+            <div class="labels">
+                <span class="badge premium">☑️Premium</span>
+                <span class="badge bestseller">Bestseller</span>
+            </div>
+        </div>
+        <div class="course2">
+            <img src="course2.png" alt="course-2" />
+            <h2 class="subco">AI Engineer Course 2026:Complete AI Engineering.</br><span class="backtag">365
+                    careers</span></h2>
+            <div class="rating">4.6
+                <span class="stars">★★★★★</span>
+                <span class="count">(15870)</span>
+            </div>
+            <h2 class="price">₹479 <del>₹799</del></h2>
+            <div class="labels">
+                <span class="badge premium">☑️Premium</span>
+                <span class="badge bestseller">Bestseller</span>
+            </div>
+        </div>
+        <div class="course3">
+            <img src="course3.png" alt="course-3" />
+            <h2 class="subco">Intro To AI Agents And Agentic AI.</br><span class="backtag">365 careers</span></h2>
+            <div class="rating">4.5
+                <span class="stars">★★★★★</span>
+                <span class="count">(30892)</span>
+            </div>
+            <h2 class="price">₹479 <del>₹799</del></h2>
+            <div class="labels">
+                <span class="badge premium">☑️Premium</span>
+                <span class="badge bestseller">Bestseller</span>
+            </div>
+        </div>
+        <div class="course4">
+            <img src="course4.png" alt="course-4" />
+            <h2 class="subco">AI For Cyber Security,Theif Detection And Soc Automation.</br><span
+                    class="backtag">selfcode acadamy</span></h2>
+            <div class="rating">4.7
+                <span class="stars">★★★★★</span>
+                <span class="count">(185)</span>
+            </div>
+            <h2 class="price">₹479 <del>₹799</del></h2>
+            <div class="labels">
+                <span class="badge premium">☑️Premium</span>
+                <span class="badge bestseller">Bestseller</span>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2026 Upskilling | All Rights Reserved.</p>
+    </footer>
+    <div id="popup" class="popup">
+        <p id="popup-text"></p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</body>
+
+</html>
